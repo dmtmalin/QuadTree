@@ -1,0 +1,47 @@
+<GridLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:columnCount="2"
+    android:rowCount="7"
+    tools:context=".MainActivity">
+
+    <TextView android:id="@+id/latitude_label" android:text="@string/latitude" android:layout_width="wrap_content"
+        android:layout_height="wrap_content" android:layout_marginRight="10dp"/>
+    <TextView android:id="@+id/latitude_text"  android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <TextView android:id="@+id/longitude_label" android:text="@string/longitude" android:layout_width="wrap_content"
+    android:layout_height="wrap_content" android:layout_marginRight="10dp"/>
+    <TextView android:id="@+id/longitude_text"  android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <TextView android:id="@+id/lastUpdate_label" android:text="@string/lastUpdate" android:layout_width="wrap_content"
+        android:layout_height="wrap_content" android:layout_marginRight="10dp"/>
+    <TextView android:id="@+id/lastUpdate_text" android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <TextView android:id="@+id/indexPoint_label" android:text="@string/indexPoint" android:layout_width="wrap_content"
+        android:layout_height="wrap_content" android:layout_marginRight="10dp"/>
+    <TextView android:id="@+id/indexPoint_text"  android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <TextView android:id="@+id/indexQuad_label" android:text="@string/indexQuad" android:layout_width="wrap_content"
+        android:layout_height="wrap_content" android:layout_marginRight="10dp"/>
+    <TextView android:id="@+id/indexQuad_text"  android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <TextView android:id="@+id/accuracy_label" android:text="@string/accuracy" android:layout_width="wrap_content"
+        android:layout_height="wrap_content" android:layout_marginRight="10dp"/>
+    <EditText android:id="@+id/accuracy_edit" android:inputType="number" android:layout_width="50dp"/>
+
+    <Button android:id="@+id/push_button"  android:text="@string/push" android:layout_height="wrap_content" android:layout_marginRight="10dp"/>
+    <EditText android:id="@+id/push_edit" android:layout_width="200dp"/>
+
+    <TextView android:id="@+id/rabbit_label" android:text="@string/rabbit" android:layout_width="wrap_content"
+        android:layout_height="wrap_content" android:layout_marginRight="10dp"/>
+    <TextView android:id="@+id/rabbit_text"  android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+</GridLayout>

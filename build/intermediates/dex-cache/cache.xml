@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="C:\Users\dmt\AndroidStudioProjects\QuadTree\app\libs\junit.jar"
+        jumboMode="false"
+        revision="23.0.0"
+        sha1="99129f16442844f6a4a11ae22fbbee40b14d774f">
+        <dex dex="C:\Users\dmt\AndroidStudioProjects\QuadTree\app\build\intermediates\pre-dexed\debug\junit-061a17618b932aa25a747c4870881d4900ef31c3.jar" />
+    </item>
+    <item
+        jar="C:\Users\dmt\AndroidStudioProjects\QuadTree\app\libs\rabbitmq-client-tests.jar"
+        jumboMode="false"
+        revision="23.0.0"
+        sha1="8cb12b2becca8c194c62d168806ff708c4db8cfb">
+        <dex dex="C:\Users\dmt\AndroidStudioProjects\QuadTree\app\build\intermediates\pre-dexed\debug\rabbitmq-client-tests-a7929505fb97260d78ef133933c7083dd582cd41.jar" />
+    </item>
+    <item
+        jar="C:\Users\dmt\AndroidStudioProjects\QuadTree\app\libs\commons-cli-1.1.jar"
+        jumboMode="false"
+        revision="23.0.0"
+        sha1="11c98b99ad538f2f67633afd4d7f4d98ecfbb408">
+        <dex dex="C:\Users\dmt\AndroidStudioProjects\QuadTree\app\build\intermediates\pre-dexed\debug\commons-cli-1.1-98aee3b79391e1b2ed9322919b50eb4c228b03a7.jar" />
+    </item>
+    <item
+        jar="C:\Users\dmt\AndroidStudioProjects\QuadTree\app\libs\rabbitmq-client.jar"
+        jumboMode="false"
+        revision="23.0.0"
+        sha1="2f7f3533a1209a8af5a995637781b86ac431c8dc">
+        <dex dex="C:\Users\dmt\AndroidStudioProjects\QuadTree\app\build\intermediates\pre-dexed\debug\rabbitmq-client-feec1b51f41a7b17276c5d0410d85d256d3c29b3.jar" />
+    </item>
+    <item
+        jar="C:\Users\dmt\AndroidStudioProjects\QuadTree\app\libs\commons-io-1.2.jar"
+        jumboMode="false"
+        revision="23.0.0"
+        sha1="0ad6ae511ca4608a18317fcb19850fd113bb2ae8">
+        <dex dex="C:\Users\dmt\AndroidStudioProjects\QuadTree\app\build\intermediates\pre-dexed\debug\commons-io-1.2-900d417e1b7bc7590825accc6ff573ecfcf613bc.jar" />
+    </item>
+
+</items>

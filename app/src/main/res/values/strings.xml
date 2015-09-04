@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">QuadTree</string>
+    <string name="latitude">Latitude</string>
+    <string name="longitude">Longitude</string>
+    <string name="lastUpdate">Last update</string>
+    <string name="indexPoint">Index point</string>
+    <string name="indexQuad">Index quad</string>
+    <string name="rabbit">Rabbit</string>
+    <string name="push">Push</string>
+    <string name="accuracy">Accuracy</string>
+</resources>
