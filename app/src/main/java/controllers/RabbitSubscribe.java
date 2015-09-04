@@ -12,6 +12,8 @@ import com.rabbitmq.client.QueueingConsumer;
  * Created by dmt on 01.09.2015.
  */
 public class RabbitSubscribe implements Runnable {
+    private final int INTERVAL_RECOVERY = 4000;
+
     private String routingKey;
     private Handler handler;
 
@@ -49,7 +51,7 @@ public class RabbitSubscribe implements Runnable {
                 break;
             } catch (Exception e1) {
                 try {
-                    Thread.sleep(4000); //sleep and then try again
+                    Thread.sleep(INTERVAL_RECOVERY); //sleep and then try again
                 } catch (InterruptedException e) {
                     break;
                 }

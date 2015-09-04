@@ -8,6 +8,7 @@ import java.util.concurrent.BlockingDeque;
  * Created by dmt on 01.09.2015.
  */
 public class RabbitPublish implements Runnable {
+    private final int INTERVAL_RECOVERY = 5000;
 
     private BlockingDeque<String> queue;
     private String routingKey;
@@ -39,7 +40,7 @@ public class RabbitPublish implements Runnable {
                 break;
             } catch (Exception e) {
                 try {
-                    Thread.sleep(5000); //sleep and then try again
+                    Thread.sleep(INTERVAL_RECOVERY); //sleep and then try again
                 } catch (InterruptedException e1) {
                     break;
                 }
